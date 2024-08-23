@@ -9,16 +9,12 @@ pipeline {
         }
         stage('Build Repository') {
             steps {
-                script {
-                    sh './gradlew build'
-                }
+                sh './gradlew build'
             }
         }
         stage('Run Unit Tests') {
             steps {
-                script {
-                    sh './gradlew test'
-                }
+                sh './gradlew test'
             }
         }
 
