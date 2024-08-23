@@ -12,7 +12,6 @@ pipeline {
                 sh './gradlew test'
             }
         }
-
     }
 
     post {
