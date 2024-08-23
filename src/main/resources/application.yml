@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: video-file-upload-service
+  cloud:
+    config:
+      enabled: false
