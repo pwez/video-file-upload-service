@@ -54,7 +54,7 @@ dependencyManagement {
 
 sonar {
 	properties {
-		property "sonar.host.url", "http://localhost:9000"
+		property "sonar.host.url", "http://sonarqube:9000"
 		property "sonar.token", "squ_02ee6d4bad22bf67878e18addc5ef427b42138ba"
 	}
 }
